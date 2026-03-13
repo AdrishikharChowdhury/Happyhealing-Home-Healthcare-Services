@@ -3,19 +3,18 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
-import Gallery from './pages/Gallery'
-import Reviews from './pages/Reviews'
-
+import BTS from './pages/BTS'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <Navbar />
       <HeroSection />
       <AboutUs />
       <Services />
-      <Gallery />
-      <Reviews />
+      <BTS />
+      <Footer />
     </div>
   )
 }
