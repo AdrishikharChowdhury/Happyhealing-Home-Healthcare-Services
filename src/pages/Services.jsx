@@ -9,7 +9,7 @@ import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   return (
-    <div className="w-full min-h-screen bg-[#9A879D] flex justify-center items-center flex-col text-white px-8 gap-10 py-20">
+    <div id="services" className="w-full min-h-screen bg-[#9A879D] flex justify-center items-center flex-col text-white px-8 gap-10 py-20">
       <p className="w-full h-auto text-6xl font-semibold text-center self-start">
         Services
       </p>

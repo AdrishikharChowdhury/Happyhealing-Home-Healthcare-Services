@@ -3,7 +3,7 @@ import polaroid from "../assets/polaroid.webp";
 
 const AboutUs = () => {
   return (
-    <div className="w-full min-h-screen bg-[#F9F9F9] flex justify-center items-center">
+    <div id="about" className="w-full min-h-screen bg-[#F9F9F9] flex justify-center items-center">
       <div className="p-20 flex flex-col justify-center items-center gap-6 w-3/5">
         <p className="text-6xl font-semibold">About Us</p>
         <p className="text-2xl/12 text-center tracking-widest">

@@ -5,7 +5,7 @@ import WhatsAppButton from "./WhatsAppButton";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center w-full min-h-screen bg-black/70 text-white text-xl">
+    <div id="home" className="flex justify-center items-center w-full min-h-screen bg-black/70 text-white text-xl">
       <div
         className="flex justify-center items-center gap-6 min-h-screen w-full relative"
         style={{
