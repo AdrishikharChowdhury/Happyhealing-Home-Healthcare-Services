@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="w-full bg-[#331832] px-4 md:px-8 lg:px-10 py-8 md:py-10 text-white flex flex-col justify-center items-center gap-6 md:gap-8">
+    <motion.div 
+      className="w-full bg-[#331832] px-4 md:px-8 lg:px-10 py-8 md:py-10 text-white flex flex-col justify-center items-center gap-6 md:gap-8"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center md:text-left">Quick Links:</h1>
         <ul className="flex flex-wrap justify-center items-center gap-4 md:gap-8 lg:gap-20 text-sm md:text-base">
@@ -74,7 +81,7 @@ const Footer = () => {
       </div>
       <hr className="border-white w-full" />
       <p className="text-sm md:text-base text-center">&copy; {year} Shiba Home HealthCare. All rights reserved.</p>
-    </div>
+    </motion.div>
   );
 };
 
