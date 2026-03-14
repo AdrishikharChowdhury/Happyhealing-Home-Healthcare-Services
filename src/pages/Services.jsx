@@ -9,11 +9,11 @@ import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   return (
-    <div id="services" className="w-full min-h-screen bg-[#9A879D] flex justify-center items-center flex-col text-white px-8 gap-10 py-20">
-      <p className="w-full h-auto text-6xl font-semibold text-center self-start">
+    <div id="services" className="w-full min-h-screen bg-[#9A879D] flex justify-center items-center flex-col text-white px-4 md:px-6 lg:px-8 gap-8 md:gap-10 py-12 md:py-16 lg:py-20">
+      <p className="w-full h-auto text-3xl md:text-4xl xl:text-6xl font-semibold text-center self-start">
         Services
       </p>
-      <div className="w-full h-full flex justify-center items-center flex-wrap gap-20">
+      <div className="w-full h-full flex justify-center items-center flex-wrap gap-8 md:gap-12 lg:gap-20">
         <ServiceCard
           image={home_nurse}
           heading={`Home Nursing Services`}
