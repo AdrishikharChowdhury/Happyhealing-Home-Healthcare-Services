@@ -29,14 +29,14 @@ const HeroSection = () => {
 
         <div
           style={{ position: "relative", zIndex: 2 }}
-          className="flex justify-center items-center w-full h-full pt-30 gap-10"
+          className="flex xl:flex-row flex-col justify-center items-center w-full h-full pt-30 gap-10"
         >
-          <img src={logo} alt="logo" className="size-100" />
-          <div className="flex flex-col gap-10 justify-center">
-            <p className="text-6xl font-semibold">
+          <img src={logo} alt="logo" className="size-40 md:size-60 lg:size-80 xl:size-100" />
+          <div className="flex flex-col gap-4 lg:gap-10 justify-center">
+            <p className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold">
               Shiba Home HealthCare Service
             </p>
-            <p className="text-3xl text-center">Your health our responsibility</p>
+            <p className="sm:text-lg md:text-xl lg:text-3xl text-center">Your health our responsibility</p>
             <WhatsAppButton />
           </div>
         </div>
