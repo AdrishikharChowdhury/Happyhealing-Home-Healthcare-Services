@@ -4,7 +4,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const WhatsAppButton = () => {
   const phoneNumber = "918413002379"; // +91 84300 02379
-  const message = "Hi! Shiba Home HealthCare তে appointment নিতে চাই।"; // Pre-filled message
+  const message = "Hi! I want to book an appointment on Shiba Home HealthCare"; // Pre-filled message
 
   const openWhatsApp = () => {
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
