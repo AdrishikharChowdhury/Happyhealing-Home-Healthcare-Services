@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "918430002379"; // +91 84300 02379
+  const phoneNumber = "918413002379"; // +91 84300 02379
   const message = "Hi! Shiba Home HealthCare তে appointment নিতে চাই।"; // Pre-filled message
 
   const openWhatsApp = () => {

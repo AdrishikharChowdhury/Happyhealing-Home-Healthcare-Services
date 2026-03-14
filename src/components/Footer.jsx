@@ -56,8 +56,8 @@ const Footer = () => {
           <li
             className="hover:scale-105 hover:text-emerald-400 cursor-pointer duration-50"
           >
-            <a href="tel:+918430002379" className="text-white no-underline hover:text-emerald-400 cursor-pointer">
-              +91 84300 02379
+            <a href="tel:+918413002379" className="text-white no-underline hover:text-emerald-400 cursor-pointer">
+              +91 841300 2379
             </a>
           </li>
           <li
