@@ -14,10 +14,10 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={openWhatsApp}
-      className="font-semibold bg-emerald-600 px-5 py-3 flex justify-center items-center gap-4 rounded-xl text-xl cursor-pointer border-4 w-max self-center" 
+      className="font-semibold bg-emerald-600 px-3 py-2 md:px-5 md:py-3 flex justify-center items-center gap-2 md:gap-4 rounded-xl text-sm md:text-xl cursor-pointer border-2 md:border-4 w-max self-center" 
     >
-      <p>Contact Us</p>
-      <FontAwesomeIcon icon={faWhatsapp} />
+      <p className="hidden md:block">Contact Us</p>
+      <FontAwesomeIcon icon={faWhatsapp} className="text-lg md:text-xl" />
     </button>
   );
 };
